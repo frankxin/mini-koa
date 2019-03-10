@@ -1,0 +1,34 @@
+{
+  "name": "mini-koa",
+  "version": "0.0.1",
+  "description": "A koa implementation",
+  "main": "build/application.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankxin/mini-koa.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankxin/mini-koa/issues"
+  },
+  "homepage": "https://github.com/frankxin/mini-koa#readme",
+  "dependencies": {
+    "cookies": "^0.7.3",
+    "delegates": "^1.0.0",
+    "statuses": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.10.5",
+    "typescript": "^3.3.3333"
+  }
+}
